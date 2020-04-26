@@ -8,6 +8,12 @@ nav{
     margin: 0 auto 0 auto;
     padding: 0%;
 }
+.logo{
+    width: 65px;
+    height: 65px;
+    margin-right: 610px;
+
+}
 
 .hdn{
     font-family: 'Love Ya Like A Sister', cursive;
@@ -17,25 +23,39 @@ nav{
 .hqn{
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 400%; 
+    text-align: center;
 }
 
 .mhm{
     font-family: 'Trebuchet MS', serif;
-    font-size: 80%;
+    font-size: 100%;
     word-spacing: normal;
-    letter-spacing: .1em;
+ 
 }
 
 #name{
     font-family: 'Trebuchet MS', serif;
     font-size: 100%;
     letter-spacing: .1em;
+    width: 430px;
+    height: 26px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.lbl{
+    font-family: 'Trebuchet MS', serif;
+    font-size: 100%;
 }
 
 #message{
     font-family: 'Trebuchet MS', serif;
     font-size: 100%;
     letter-spacing: .1em;
+    width: 430px;
+    height: 260px;
+    border-radius: 5px;
+    
 }
 
 #sbmit{
@@ -45,11 +65,11 @@ nav{
     background: #507f02;
     font-size: 16px;
     box-shadow: 1px 1px 1px #BEE2F9;
-    padding: 7px 10px;
+    padding: 9px 25px;
     border-width: 0;
     font-family: 'Trebuchet MS', serif;
-    font-size: 80%;
-    letter-spacing: .1em;
+    font-size: 95%;
+
 }
 
 #qns{ 
@@ -60,7 +80,7 @@ nav{
 }
 
 .navbar{
-    margin-right: 200px;
+    margin-right: 210px;
 }
 
 nav ul li{
@@ -81,7 +101,7 @@ nav ul li a{
     justify-content: flex-start;
     text-align: center;
     list-style: none;
-    margin-left: 250px;
+    margin-left: 260px;
 
 }
 
@@ -101,12 +121,11 @@ nav ul li a{
     color: #ffffff;
     border-radius: 5px;
     background: #507f02;
-    font-size: 14px;
     box-shadow: 1px 1px 1px #BEE2F9;
     padding: 9px 9px;
     border-width: 0;
     font-family: 'Trebuchet MS', serif;
-    font-size: 80%;
+    font-size: 95%;
     
 }
 
@@ -131,6 +150,8 @@ a{
 
 .writings{
     width: 500px;
+    margin-bottom: 50px;
+    padding-right: 100px;
 }
 
 .hm{
