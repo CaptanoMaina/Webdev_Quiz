@@ -1,0 +1,111 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background:transparent;
+    opacity: .8;
+    height: 35px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 0%;
+}
+
+.hdn{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 400%;
+}
+
+.mhm{
+    font-family: 'Trebuchet MS', serif;
+    font-size: 80%;
+}
+#qns{ 
+    background-size: cover;
+}
+#cnt{ 
+    background-size: cover;
+}
+
+.navbar{
+    margin-right: 200px;
+}
+
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    margin: 0 50px 0 0;
+    list-style: none;
+    
+}
+
+nav ul li a{
+    font-size: 16px;
+    color: #535352; 
+}
+
+.bottomnav{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    list-style: none;
+    margin-left: 250px;
+
+}
+
+.bottomnav li{
+    text-align: center;
+    display: inline-block;
+    margin: 0 50px 0 0;
+} 
+
+.bottomnav li a{
+    color: #535352; 
+    font-size: 14px;  
+}
+
+#btn{
+    background-color: #507f02;
+    color: #ffffff;
+    border-radius: 8px;
+    background: #507f02;
+    font-size: 14px;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 9px 9px;
+    border-width: 0;
+    font-family: 'Trebuchet MS', serif;
+    font-size: 80%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.body-container{
+    width: 1000px;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.writings{
+    width: 500px;
+}
+
+.hm{
+    width: 100%;
+    height: 100%;
+}
+
+
+.imagey{
+    width: 550px;
+}
+
+
