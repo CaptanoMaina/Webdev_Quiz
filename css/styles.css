@@ -68,7 +68,8 @@ nav{
     padding: 9px 25px;
     border-width: 0;
     font-family: 'Trebuchet MS', serif;
-    font-size: 95%;
+    font-size: 100%;
+    margin-left: 335px;
 
 }
 
@@ -96,25 +97,8 @@ nav ul li a{
     color: #535352; 
 }
 
-.bottomnav{
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    list-style: none;
-    margin-left: 260px;
+  
 
-}
-
-.bottomnav li{
-    text-align: center;
-    display: inline-block;
-    margin: 0 50px 0 0;
-} 
-
-.bottomnav li a{
-    color: #535352; 
-    font-size: 14px;  
-}
 
 #btn{
     background-color: #507f02;
@@ -129,7 +113,20 @@ nav ul li a{
     
 }
 
-#nxt{
+#fnl{
+    background-color: #507f02;
+    color: #ffffff;
+    border-radius: 5px;
+    background: #507f02;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 9px 25px;
+    border-width: 0;
+    font-family: 'Trebuchet MS', serif;
+    font-size: 95%;
+}
+
+.nx{
     background-color: #507f02;
     color: #ffffff;
     border-radius: 5px;
@@ -139,6 +136,7 @@ nav ul li a{
     border-width: 0;
     font-family: 'Trebuchet MS', serif;
     font-size: 95%; 
+    margin-left: 350px;
 }
 
 a{
@@ -175,18 +173,36 @@ a{
     width: 550px;
 }
 
+.mwili-container{
+    width: 1000px;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', serif;
+    font-size: 100%;
+}
+
 .maswali{
     width: 500px;
+    border: 0.1px groove;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    
+    
 }
 .majibu{
-    width: 550px;
+    width: 400px;
 
 }
 
 .qnf{
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 400%; 
-    text-align: center; 
+    text-align: center;
+    margin-bottom: 0px; 
 }
 
 
@@ -194,12 +210,16 @@ a{
 .opt{
     border: 1.5px groove;
     border-radius: 5px;
-    margin: 0 0 15px 150px;
+    margin: 0 0 15px 0;
     padding-top: 12px;
     padding-bottom: 12px;
     width: 400px;
     text-align: center;
    
+}
+
+.init{
+    width: 450px;
 }
 
 .opt:hover{
@@ -214,4 +234,10 @@ a{
 input[type="radio"]{
     
 
+}
+.bk{
+    background-size: cover;
+}
+#btn:hover{
+    cursor: pointer;
 }

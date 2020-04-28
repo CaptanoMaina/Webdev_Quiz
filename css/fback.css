@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    list-style: none;
+    margin-left: 260px;
+
+}
+
+.bottomnav li{
+    text-align: center;
+    display: inline-block;
+    margin: 0 50px 0 0;
+} 
+
+.bottomnav li a{
+    color: #535352; 
+    font-size: 14px;  
+}

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="bk" style="background-image:url('images/wbd_cr.jpg');">
     <nav>
       <a href="index.html">
          <img class="logo" src="images/logo.PNG" alt="logo">
@@ -25,37 +25,37 @@
     
 
     <div class="middle-container">
-      <div class="body-container">
+      <div class="mwili-container">
 
       
       <div class="maswali qn1">
             <h1 class="qnf" >Question</h1>
       
-        <p>Which of the following is the correct format for the HTML5 doctype?</p> 
+        <p>1. Which of the following is the correct format for the HTML5 doctype?</p> 
       </div>
 
       <div class="majibu qn1">
       <form>
          <div class="opt">
-            <input type="radio" id="q1A" name="option" value="A">
+            <input type="radio" required="required" id="q1A" name="option" value="A">
             <label for="q1A"> &lt;DOCTYPE html!&gt;</label></div>
          
          
          <div class="opt">
-            <input type="radio" id="q1B" name="option" value="B">
+            <input type="radio" required="required" id="q1B" name="option" value="B">
             <label for="q1B"> &lt;!DOCTYPE html&gt;</label></div>
          
          
          <div class="opt">
-            <input type="radio" id="q1C" name="option" value="C">
+            <input type="radio" required="required" id="q1C" name="option" value="C">
             <label for="q1C"> &lt;!html DOCTYPE&gt;</label></div>
          
          
          <div class="opt">
-            <input type="radio" id="q1D" name="option" value="D">
+            <input type="radio" required="required" id="q1D" name="option" value="D">
             <label for="q1D"> &lt;html DOCTYPE!&gt;</label></div>
 
-            <input type="button" id="nxt" value="Next">
+            <input class="nx" type="submit" id="nxt" value="Next">
         </form> 
       </div>
 
@@ -66,19 +66,20 @@
        <div class= "majibu qn2" hidden>
         <form>
            <div class="opt">
-            <input type="radio" id="qn2A" name="option" value="A">
-            <label for="qn2A">A. &lt;paragraph&gt;This is a paragraph.&lt;/paragraph&gt;</label></div>
+            <input type="radio" required="required" id="qn2A" name="option" value="A">
+            <label for="qn2A"> &lt;paragraph&gt;This is a paragraph.&lt;/paragraph&gt;</label></div>
          
           
          <div class="opt">
-            <input type="radio" id="qn2B" name="option" value="B">
-            <label for="qn2B">B. &lt;p1&gt;This is a paragraph.&lt;/p1&gt;</label></div>
+            <input type="radio" required="required" id="qn2B" name="option" value="B">
+            <label for="qn2B"> &lt;p1&gt;This is a paragraph.&lt;/p1&gt;</label></div>
          
          
          <div class="opt">
-            <input type="radio" id="qn2C" name="option" value="C">
-            <label for="qn2C">C. &lt;p&gt;This is a paragraph.&lt;/p&gt;</label></div>
-        </form>
+            <input type="radio" required="required" id="qn2C" name="option" value="C">
+            <label for="qn2C"> &lt;p&gt;This is a paragraph.&lt;/p&gt;</label></div>
+            <input class="nx" type="submit" id="nxt2" value="Next">
+         </form>
       </div>
 
       <div class="maswali qn3" hidden>
@@ -88,101 +89,100 @@
         <div class= "majibu qn3" hidden>
         <form>
            <div class="opt">
-            <input type="radio" id="qn3A" name="option" value="A">
-            <label for="qn3A">A. &lt;em&gt;Text&lt;/em&gt;</label></div>
+            <input type="radio" required="required" id="qn3A" name="option" value="A">
+            <label for="qn3A"> &lt;em&gt;Text&lt;/em&gt;</label></div>
          
           
          <div class="opt">
-            <input type="radio" id="qn3B" name="option" value="B">
-            <label for="qn3B">B. &lt;strong&gt;Text&lt;/strong&gt;</label></div>
+            <input type="radio" required="required" id="qn3B" name="option" value="B">
+            <label for="qn3B"> &lt;strong&gt;Text&lt;/strong&gt;</label></div>
          
          
          <div class="opt">
-            <input type="radio" id="qn3C" name="option" value="C">
-            <label for="qn3C">C. &lt;bold&gt;Text&lt;/bold&gt;</label></div>
+            <input type="radio" required="required" id="qn3C" name="option" value="C">
+            <label for="qn3C"> &lt;bold&gt;Text&lt;/bold&gt;</label></div>
          
          
          <div class="opt">
-            <input type="radio" id="qn3D" name="option" value="D">
-            <label for="qn3D">D. &lt;S&gt;Text&lt;s&gt;</label></div>
-       
+            <input type="radio" required="required" id="qn3D" name="option" value="D">
+            <label for="qn3D"> &lt;S&gt;Text&lt;s&gt;</label></div>
+            <input class="nx" type="submit" id="nxt3" value="Next">
         </form> 
       </div>
 
       <div class="maswali qn4" hidden>
          <h1 class="qnf" >Question</h1>
         <p>4. The following is a directory structure of a website with the domain meme.com: 
-        
+            <br/>
             The root directory has index.html, contacts.html and a folder called posts. The posts directory has post1.html.
-        
+            <br/>
             The web designer intends to add a link in post1.html that takes the user to contacts.html. Which of the following links will not achieve this?</p>
             </div>
             <div class= "majibu qn4" hidden>
             <form>
-               <div class="opt">
-                <input type="radio" id="qn4A" name="option" value="A">
-                <label for="qn4A">A. &lt;a href=''../contacts.html>Contacts&lt;/a&gt;</label></div>
+               <div class="opt init">
+                <input type="radio" required="required" id="qn4A" name="option" value="A">
+                <label for="qn4A"> &lt;a href=''../contacts.html>Contacts&lt;/a&gt;</label></div>
              
               
-             <div class="opt">
-                <input type="radio" id="qn4B" name="option" value="B">
-                <label for="qn4B">B. &lt;a href='/contacts.html'>Contacts&lt;/a&gt;</label></div>
+             <div class="opt init">
+                <input type="radio" required="required" id="qn4B" name="option" value="B">
+                <label for="qn4B"> &lt;a href='/contacts.html'>Contacts&lt;/a&gt;</label></div>
              
              
-             <div class="opt">
-                <input type="radio" id="qn4C" name="option" value="C">
-                <label for="qn4C">C. &lt;a href='contacts.html'>Contacts&lt;/a&gt;</label></div>
+             <div class="opt init">
+                <input type="radio" required="required" id="qn4C" name="option" value="C">
+                <label for="qn4C"> &lt;a href='contacts.html'>Contacts&lt;/a&gt;</label></div>
              
              
-             <div class="opt">
-                <input type="radio" id="qn4D" name="option" value="D">
-                <label for="qn4D">D. &lt;a href=https://meme.com/contacts.html'>Contacts&lt;/a&gt;</label></div>
-            
+             <div class="opt init">
+                <input type="radio" required="required" id="qn4D" name="option" value="D">
+                <label for="qn4D"> &lt;a href=https://meme.com/contacts.html'>Contacts&lt;/a&gt;</label></div>
+                <input class="nx" type="submit" id="nxt4" value="Next">
             </form> 
          </div>
             <div class="maswali qn5" hidden>
                <h1 class="qnf" >Question</h1>
 
-            <p>5. The following symbols have special meaning in HTML and hence have to be encoded in order for the browser to display the symbol. Which one does not need  to be encoded for it to be displayed?
+            <p>5. The following symbols have special meaning in HTML and hence have to be encoded in order for the browser to display the symbol. <br/>Which one does not need  to be encoded for it to be displayed?
             </p>
             </div>
 
             <div class= "majibu qn5" hidden>
             <form>
                <div class="opt">
-                <input type="radio" id="qn5A" name="option" value="A">
-                <label for="qn5A">A. &lt;</label></div>
+                <input type="radio" required="required" id="qn5A" name="option" value="A">
+                <label for="qn5A"> &lt;</label></div>
              
               
              <div class="opt">
-                <input type="radio" id="qn5B" name="option" value="B">
-                <label for="qn5B">B. ;</label></div>
+                <input type="radio" required="required" id="qn5B" name="option" value="B">
+                <label for="qn5B"> ;</label></div>
              
              
              <div class="opt">
-                <input type="radio" id="qn5C" name="option" value="C">
-                <label for="qn5C">C. &gt;</label></div>
+                <input type="radio" required="required" id="qn5C" name="option" value="C">
+                <label for="qn5C"> &gt;</label></div>
              
              
              <div class="opt">
-                <input type="radio" id="qn5D" name="option" value="D">
-                <label for="qn5D">D. &</label></div>
+                <input type="radio" required="required" id="qn5D" name="option" value="D">
+                <label for="qn5D"> &</label></div>
             
             
-                <input type="submit" value="Submit">
+                <input type="submit" id="fnl" value="Submit">
             </form> 
             </div>
    
    </div>
     </div>
     <div class="bottom-container">
-      <div class="bottomnav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="questions.html">Questions</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </div>
+     
     </div>
     
-     
+    <script src="index.js" charset="utf-8"></script> 
 </body>
+<footer>
+   
+</footer>
 </html>
