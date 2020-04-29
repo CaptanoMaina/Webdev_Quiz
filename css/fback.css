@@ -17,3 +17,26 @@ footer{
     color: #535352; 
     font-size: 14px;  
 }
+body{
+    font-family: 'Trebuchet MS', serif;
+    font-size: 100%;
+}
+
+.body-container{
+    flex-direction: column;
+    margin-bottom: 20px;
+    height: fit-content;
+}
+
+.juja{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    border-top: 1px;
+    border-style: groove;
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+

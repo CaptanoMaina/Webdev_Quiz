@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fback.css">
 </head>
-<body class="bk" style="background-image:url('images/blnk.jpg');">
+<body class="bk" style="background-image:url('images/cact.jpg');">
     <nav>
       <a href="index.html">
          <img class="logo" src="images/logo.PNG" alt="logo">
@@ -25,16 +25,18 @@
     </nav>
 
     <div class="middle-container">
-        <div class="mwili-container">
-            <h1 class="qnf" >Feedback</h1>
+      
+        <div class="body-container">
+         <h1 class="qnf" >Feedback</h1>
+           <div class="juja">
+
+            
         
-        <div class="maswali qn1">
+        <div class="writings qn1">
               
         
           <p>1. Which of the following is the correct format for the HTML5 doctype?</p> 
-        </div>
-  
-        <div class="majibu qn1">
+        
         <form>
            <div class="opt">
               <input type="radio" required="required" id="q1A" name="option" value="A">
@@ -58,12 +60,18 @@
               
             </form> 
         </div>
-  
-        <div class="maswali qn2" >
+
+        <div class="imagey">
+         <p>Feedback</p>
+         <p>The doctype declaraton must be the very frst thing in your HTML document, before the <html> tag. It is not an HTML tag; it is an instructon to the web browser about what version of HTML the page is writen in. </p>
+       </div>
+           </div>
+
+
+           <div class="juja">
+        <div class="writings qn2" >
                 
-          <p>2. Which of the following examples is the correct way to markup a paragraph?</p></div>
-  
-         <div class= "majibu qn2" >
+          <p>2. Which of the following examples is the correct way to markup a paragraph?</p>
           <form>
              <div class="opt">
               <input type="radio" required="required" id="qn2A" name="option" value="A">
@@ -82,12 +90,17 @@
 
            </form>
         </div>
-  
-        <div class="maswali qn3" >
+        <div class="imagey">
+         <p>Feedback</p>
+         <p>&lt;p1&gt; &lt;/p1&gt; is the correct format. &lt;paragraph&gt; and &lt;p1&gt; do not exist within HTML. </p>
+       </div>
+           </div>
+
+           <div class= "juja" >
+        <div class="writings qn3" >
            
           <P>3. Which of the following examples would you expect to usually render as bold text?</P>
-          </div>
-          <div class= "majibu qn3" >
+          
           <form>
              <div class="opt">
               <input type="radio" required="required" id="qn3A" name="option" value="A">
@@ -111,16 +124,22 @@
 
           </form> 
         </div>
-  
-        <div class="maswali qn4" >
+
+        <div class="imagey">
+         <p>Feedback</p>
+         <p>&lt;strong&gt; is a phrase tag that defines important text. This is usually rendered as bold text in the browser. Not to be confused with the &lt;b&gt; tag, which is used to draw attention to without indicating additional importance. &lt;bold&gt; does not exist within HTML. </p>
+       </div>
+           </div>
+
+           <div class= "juja" >
+        <div class="writings qn4" >
            
           <p>4. The following is a directory structure of a website with the domain meme.com: 
               <br/>
               The root directory has index.html, contacts.html and a folder called posts. The posts directory has post1.html.
               <br/>
               The web designer intends to add a link in post1.html that takes the user to contacts.html. Which of the following links will not achieve this?</p>
-              </div>
-              <div class= "majibu qn4" >
+              
               <form>
                  <div class="opt init">
                   <input type="radio" required="required" id="qn4A" name="option" value="A">
@@ -140,19 +159,31 @@
                <div class="opt init">
                   <input type="radio" required="required" id="qn4D" name="option" value="D">
                   <label for="qn4D"> &lt;a href=https://meme.com/contacts.html'>Contacts&lt;/a&gt;</label></div>
-
-
-                  
+ 
               </form> 
            </div>
-              <div class="maswali qn5" >
+
+           <div class="imagey">
+            <p>Feedback</p>
+            <p>A: This is a relative link. Relative links direct the browser to resources based on their current location/directory. The .. in the link tells the browser to move up one directory. As indicated post1.html is in the posts directory which is contained in the root directory. Hence using this relative link the browser is able to correctly access the contacts.html file that's in the root directory.
+
+            <br/>   B: This is a type of relative link known as root relative link. With a root relative link, the browser will append the root domain, in this case meme.com, to the front of the link to get the full url to the resource. Hence this will be meme.com/contacts.html. As per the directory structure indicated, this is resource exists.
+               <br/>
+               C. This will not access contacts.html. This is a relative link similar to the one in option A but in this case, it is pointing to a resource called contacts.html in the current directory. The current file, post1.html, is contained in the posts directory. The posts directory does not contain a contacts.html file, hence the link will not return the contacts page.
+               <br>
+               D. This is an absolute link. This type of link explicitly refers to the resource by including the full domain path. Even though this will retrieve the contacts.html page, it's use is discouraged when a webpage is referring to resources on the same website. Relative links are preferred since any changes to the domain will not require any code to be changed. Absolute links are usually just used to access resources on a different website</p>
+
+            
+          </div>
+           </div>
+
+           <div class= "juja" >
+              <div class="writings qn5" >
                  
   
               <p>5. The following symbols have special meaning in HTML and hence have to be encoded in order for the browser to display the symbol. <br/>Which one does not need  to be encoded for it to be displayed?
               </p>
-              </div>
-  
-              <div class= "majibu qn5" >
+              
               <form>
                  <div class="opt">
                   <input type="radio" required="required" id="qn5A" name="option" value="A">
@@ -177,7 +208,18 @@
                   
               </form> 
               </div>
-     
+              <div class="imagey">
+               <p>Feedback</p>
+               <p>A. The &lt; sign is used to indicated the start of a HTML tag (opening or closing). Hence it has to be encoded in order for the browser to display it as is. Its encoding is &lt;
+
+                  B. The ; sign is used to indicate the end of a character entity encoding. Despite this, it can be written as is because it only gets meaning when a & is encountered. That notwithstanding, its encoding is &semi;
+                  
+                  C. The > sign is used to indicate the end of a HTML tag (opening or closing). Hence it has to be encoded in order for the browser to display it as is. Its encoding is &gt;
+                  
+                  D. The & sign is used to indicate the start of a character entity encoding. Therefore, in order for it to be printed as is, it has to be encoded. Its encoding is &amp; </p>
+
+               </div>
+               </div>
      </div>
       </div>
 
