@@ -20,8 +20,8 @@ footer{
 body{
     font-family: 'Trebuchet MS', serif;
     font-size: 100%;
-    
-    
+    background-image:url('images/bb.jpg');
+    background-size: cover;
 }
 
 .body-container{
@@ -42,6 +42,22 @@ body{
     padding-left: 10px;
 }
 
-.bkn{
-    background-size: cover;
+
+@media only screen and (max-width: 500px){
+    .juja{
+        flex-direction: column;
+        width: 350px;
+    }
+    .writings{
+       width: 300px; 
+    }
+    .imagey{
+        width: 300px;
+    }
+    body{
+        background-image: none;
+    }
+    footer{
+        margin-left: 30px;
+    }
 }

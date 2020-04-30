@@ -267,3 +267,74 @@ body{
 .score > a{
     align-self: flex-end;
 }
+
+@media only screen and (max-width: 500px){
+    .bk{
+        background-size: cover;
+    }
+    nav{
+        justify-content: center;
+    }
+    .navbar{
+        margin-right: 0px;
+        padding: 0px;
+        width: 70%;
+    }
+    .logo{
+        margin-right: 150px;
+    }
+    .body-container{
+        width: 0px;
+        flex-direction: column;
+    }
+    .writings{
+        width: 400px;
+        padding-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    #name{
+        width: 300px;
+    }
+    #message{
+        width: 300px;
+        height: 200px;
+    }
+    #sbmit{
+        margin-left: 0px;
+    }
+    nav ul li{
+        margin: 0 10px 0 0;
+    }
+    a{
+        width: 130px;
+    }
+    .mwili-container{
+        width: 400px;
+        overflow-y: scroll;
+    }
+    .maswali{
+        width: 300px;
+    }
+    .majibu{
+        width: 300px;
+    }
+    .opt{
+        width: 300px;
+    }
+    .nx{
+        margin-left: 0px;
+    }
+    .init label{
+        overflow-wrap: break-word;
+    }
+    .hm{
+        display: none;
+    }
+    .mwandiko{
+        width: 300px;
+    }
+    .we{
+        background-size: 400%;
+    }
+}
