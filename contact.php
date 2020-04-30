@@ -6,7 +6,7 @@
     <meta name="description" content="Learning HTML concepts through well crafted questions ">
     <meta name="author" content="Ciku Maina">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML For Beginners</title>
+    <title>HTML Beginner Quiz</title>
     <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -31,22 +31,16 @@
     <div class="middle-container">
     <div class="body-container">
       <div class="writings">
-        <h1 class="hqn">Any <br> Questions?</h1>
+        <h1 class="hen">
+            <?php
+    echo"Thank You for your Message!
+    
+    We will get back to you within three working days";
+	
+?>
+        </h1>
       </div>
-      <div class="imagery">
-        <form id="fm" action="contact.php" method="post">
-          <label class="lbl" for="name">Email:</label><br>
-          <input type="text" id="name" name="name">
-        <br> 
-        <br> 
-          <label class="lbl" for="message">Message:</label><br>
-          <textarea form="fm" type="message" id="message" name="message"> </textarea>
-        <br>
-        <br> 
-          <input type="submit" id="sbmit" value="Submit">
-  
-       </form>
-      </div>
+      
 
     </div>
     

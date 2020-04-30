@@ -20,6 +20,8 @@ footer{
 body{
     font-family: 'Trebuchet MS', serif;
     font-size: 100%;
+    
+    
 }
 
 .body-container{
@@ -40,3 +42,6 @@ body{
     padding-left: 10px;
 }
 
+.bkn{
+    background-size: cover;
+}

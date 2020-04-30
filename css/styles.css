@@ -28,6 +28,10 @@ nav{
     font-size: 400%; 
     text-align: center;
 }
+.hen{
+    font-family: 'Trebuchet MS', serif;
+    font-size: 150%; 
+}
 
 .mhm{
     font-family: 'Trebuchet MS', serif;
@@ -243,4 +247,23 @@ input[type="radio"]{
 }
 #btn:hover{
     cursor: pointer;
+}
+body{
+    font-family: 'Trebuchet MS', serif;
+}
+
+.score{
+    
+    flex-direction: column;
+}
+
+.score > p {
+    align-self: center;
+    font-family: 'Trebuchet MS', serif;
+    font-size: 2em;
+}
+
+
+.score > a{
+    align-self: flex-end;
 }
