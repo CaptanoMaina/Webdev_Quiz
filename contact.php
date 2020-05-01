@@ -33,9 +33,9 @@
       <div class="writings">
         <h1 class="hen">
             <?php
-    echo"Thank You for your Message!
+    echo"Thank You for your Message!";
     
-    We will get back to you within three working days";
+   echo"We will get back to you within three working days";
 	
 ?>
         </h1>

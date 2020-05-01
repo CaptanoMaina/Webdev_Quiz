@@ -42,7 +42,7 @@ body{
     padding-left: 10px;
 }
 
-
+/*adjusting elements to fit in a mobile phone screen */
 @media only screen and (max-width: 500px){
     .juja{
         flex-direction: column;

@@ -268,6 +268,7 @@ body{
     align-self: flex-end;
 }
 
+/*adjusting elements to fit in a mobile phone screen */
 @media only screen and (max-width: 500px){
     .bk{
         background-size: cover;
